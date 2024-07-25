@@ -1,0 +1,260 @@
+.rodapeContainer {
+    font-family: "Poppins", sans-serif;
+    background-color: #0B1826;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.rodapeLogo-container {
+    background-color: #fff;
+    clip-path: polygon(0 0, 81% 0, 100% 100%, 0 100%);
+    padding: 60px 120px 60px 100px;
+
+}
+
+.rodapeLogo-img {
+   max-width: 720px;
+   padding-right: 120px;
+}
+
+.rodapeCnpj {
+    font-size: 40px;
+    color: #0B1826;
+    margin-left: 10px;
+}
+
+.rodapeRedes-img, .rodapeWhats-img {
+    width: 120px;
+}
+
+.rodapeRedes {
+    display: flex;
+    gap: 100px;
+    padding-bottom: 50px;
+}
+
+.rodapeWhats {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.rodapeWhats-num {
+    font-size: 60px;
+    color: #fff;
+}
+
+@media screen and (min-width: 1921px) {
+    .rodapeContainer {
+        justify-content: space-between;
+    }
+
+    .rodapeSocial {
+        margin-right: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 1920px) {
+    .rodapeContainer {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1850px) {
+    .rodapeContainer {
+        gap: 60px;
+    }
+    .rodapeRedes-img, .rodapeWhats-img {
+        width: 100px;
+    }
+    .rodapeWhats-num {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .rodapeContainer {
+        gap: 30px;
+    }
+    .rodapeRedes-img, .rodapeWhats-img {
+        width: 80px;
+    }
+    .rodapeWhats-num {
+        font-size: 30px;
+    }
+
+    .rodapeRedes {
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 1525px) {
+    .rodapeContainer {
+        gap: 30px;
+    }
+    .rodapeRedes-img, .rodapeWhats-img {
+        width: 80px;
+    }
+
+    .rodapeWhats {
+        flex-direction: column;
+        gap: 20px;
+        padding-right: 80px;
+    }
+    .rodapeWhats-num {
+        font-size: 26px;
+    }
+
+    .rodapeRedes {
+        margin-left: 0px;
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 1410px) {
+    .rodapeRedes {
+        padding-right: 80px;
+        flex-direction: column;
+    }
+    .rodapeWhats-num {
+        flex-direction: column;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .rodapeContainer {
+        gap: 60px;
+    }
+    .rodapeWhats-num {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .rodapeContainer {
+        background-color: #fff;
+        gap: 0px;
+    }
+    .rodapeRedes {
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+    .rodapeRedes a, .rodapeWhats a {
+        background-color: #0B1826;
+        border-radius: 50px;
+        border: #0B1826 solid 4px;
+        width: 120px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .rodapeRedes-img, .rodapeWhats-img {
+        margin-top: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width: 1270px) {
+    .rodapeContainer {
+        font-family: "Poppins", sans-serif;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .rodapeLogo-container {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .rodapeSocial {
+        display: flex;
+        padding-top: 60px;
+    }
+
+    .rodapeLogo-img {
+        padding-right: 0px;
+    }
+
+    .rodapeLogo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        
+    }
+    .rodapeRedes {
+        flex-direction: row;
+        padding-right: 60px;
+        gap: 60px;
+    }
+    .rodapeWhats {
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .rodapeRedes {
+        padding-right: 40px;
+        gap: 40px;
+    }
+
+    .rodapeRedes-img,
+    .rodapeWhats-img {
+        margin-top: 15px;
+        width: 65px;
+        height: 65px;
+    }
+
+    .rodapeRedes a,
+    .rodapeWhats a {
+        width: 100px;
+        height: 100px;
+    }
+
+    .rodapeLogo-img {
+        max-width: 520px;
+    }
+
+    .rodapeCnpj {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .rodapeRedes {
+        padding-right: 30px;
+        gap: 30px;
+    }
+
+    .rodapeLogo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .rodapeLogo-img {
+        max-width: 320px;
+    }
+
+    .rodapeCnpj {
+        text-align: center ;
+        font-size: 30px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .rodapeRedes {
+        padding-right: 15px;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,140 @@
+.banner {
+    font-family: "Poppins", sans-serif;
+    background-image: url(./assets/bannerBg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.bannerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+}
+
+.bannerText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 80px;
+}
+
+.bannerText-title {
+    font-size: 82px;
+    font-weight: bold;
+    max-width: 1030px;
+    line-height: 120px;
+}
+
+.bannerText-titleDestaque {
+    color: #fff;
+}
+
+.bannerText-subtitle {
+    font-size: 61px;
+    max-width: 1042px;
+    line-height: 100px;
+}
+
+.bannerButton {
+    margin-top: 90px;
+}
+
+@media screen and (max-width: 1770px) {
+    .banner {
+        background-image: url(./assets/bannerBgMobile.jpg);
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .banner {
+        flex-direction: column;
+        padding-top: 150px;
+        background-image: url(./assets/bannerBgMobile2.jpg);
+        background-size: cover;
+    }
+
+    .bannerContainer {
+        align-items: center;
+        text-align: center;
+    }
+
+    .bannerText {
+        margin-left: 0;
+        padding: 0 80px 0 80px;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+
+    .bannerText {
+        
+        align-items: center;
+        line-height: 85px;
+    }
+
+    .bannerText-title {
+        font-size: 68px;
+        max-width: 830px;
+    }
+
+    .bannerText-subtitle {
+        font-size: 41px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .bannerText-title {
+        font-size: 56px;
+    }
+
+    .bannerText-subtitle {
+        font-size: 29px;
+    }
+
+    .bannerButton {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .banner {
+        padding: 60px 0;
+        height: auto;
+    }
+    .bannerText {
+        padding: 0 30px 0 30px;
+    }
+
+    .bannerText-title {
+        font-size: 40px;
+    }
+
+    .bannerText-subtitle {
+        font-size: 20px;
+    }
+
+    .bannerButton {
+        margin-top: 30px;
+    }
+
+    
+}
+
+@media screen and (max-width: 470px) {
+    
+    .bannerText-title {
+        line-height: 50px;
+        font-size: 36px;
+    }
+
+    .bannerText-subtitle {
+        font-size: 19px;
+        line-height: 40px;
+    }
+}
+

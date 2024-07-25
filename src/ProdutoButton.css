@@ -1,0 +1,41 @@
+.produtoButton-link {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+.produtoButtonContainer {
+    background-color: #E6983A;
+    height: 125px;
+    width: 100%;
+    border-top: 4px #0B1826 solid;
+    position: absolute;
+    bottom: 0;
+    transition: 0s;
+}
+
+.produtoButtonContainer:hover {
+    background-color: #c47414;
+}
+
+.produtoButtonContainer:active {
+    background-color: #fff;
+}
+
+.produtoButton-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0B1826;
+    text-align: center;
+    padding-top: 35px;
+}
+
+@media screen and (max-width: 1850px) {
+    .produtoButtonContainer {
+        height: 80px;
+    }
+
+    .produtoButton-text {
+        font-size: 32px;
+        padding-top: 25px;
+    }
+}

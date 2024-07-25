@@ -1,0 +1,137 @@
+.headerContainer {
+    font-family: "Poppins", sans-serif;
+    background-color: #0B1826;
+    height: 150px;
+    max-height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo {
+    clip-path: polygon(0 0, 100% 0, 86% 100%, 0% 100%);
+    background-color: #fff;
+    min-width: 500px;
+}
+
+.headerLogo-img {
+    max-width: 430px;
+    margin-left: 30px;
+}
+
+.headerNav {
+    min-width: 820px;
+    list-style: none;
+    padding-right: 100px;
+}
+
+.headerNav-list {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    font-size: 40px;
+    gap: 120px;
+}
+
+
+
+.headerNav-listLink {
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+}
+
+.headerNav-listLink:hover {
+    color: #E6983A;
+}
+
+
+@media screen and (max-width: 1520px) {
+    .headerNav {
+        padding-right: 30px;
+    }
+
+    .headerNav-list {
+        font-size: 32px;
+        padding-left: 120px;
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .headerNav-list {
+        font-size: 28px;
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1195px) {
+    .headerNav-list {
+        font-size: 26px;
+        padding-left: 60px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .headerContainer {
+        background-color: #fff;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        max-height:fit-content;
+        height: auto;
+        padding: 30px 0 30px 0;
+        border-bottom: #0B1826 solid 4px;
+        border-top: #0B1826 solid 4px;
+        
+    }
+
+    .headerLogo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headerLogo-img {
+        margin-left: 0;
+    }
+
+
+    .headerNav {
+        min-width: auto;
+    }
+
+    .headerNav-list {
+        padding-right: 0px;
+        padding-left: 40px;
+    }
+
+    .headerNav-list, .headerNav-listLink {
+        color: #0B1826;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .headerNav-list {
+        gap: 35px;
+}
+.headerNav-listItem {
+    font-size: 23px;
+    
+}
+
+}
+
+@media screen and (max-width: 480px) {
+    .headerNav-list {
+        gap: 25px;
+}
+.headerNav-listItem {
+    font-size: 16px;
+    
+}
+
+}

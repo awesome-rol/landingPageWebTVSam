@@ -12,7 +12,7 @@ import './main.css';
 
 
 const recursosList = [
-    {id: 1, text: "Site administrável", src: siteAdminIcon, alt: "Ícone de site administrável"},
+    {id: 1, text: "Site administrável (6 modelos disponíveis)", src: siteAdminIcon, alt: "Ícone de site administrável"},
     {id: 2, text: "Transmissão simultânea nas redes sociais", src: transmissaoIcon, alt: "Ícone de transmissão simultânea nas redes sociais"},
     {id: 3, text: "Criação de playlists agendadas", src: playlistIcon, alt: "Ícone de criação de playlists agendadas"},
     {id: 4, text: "Tráfego ilimitado", src: trafegoIcon, alt: "Ícone de tráfego ilimitado"},

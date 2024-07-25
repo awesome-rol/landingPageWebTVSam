@@ -14,7 +14,7 @@ seu próprio <strong className="bannerText-titleDestaque">canal de TV?</strong><
             <h2 className="bannerText-subtitle">Criar playlists, transmitir ao vivo e 
 agendar programações?</h2>
         </div>
-        <div className="bannerButton"><MainButton content="Quero começar!" link="#teste" /></div>
+        <div className="bannerButton"><MainButton content="Quero começar!" link="#produtos" /></div>
         
         </div>
         

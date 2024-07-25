@@ -12,7 +12,7 @@ const produtosList = [
 ]
 const Produtos = () => {
   return (
-    <div className="produtosContainer" id="teste">
+    <div className="produtosContainer" id="produtos">
       <h2 className="produtosTitle">Nossos produtos</h2>
       <div className="produtosListContainer">
         {produtosList.map((item) => (
